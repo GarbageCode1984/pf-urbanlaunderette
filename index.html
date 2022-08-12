@@ -65,6 +65,7 @@
                     $("footer div.inner .right ul.sns")
                         .clone()
                         .appendTo(".menuback");
+                    $(".menuback .copyright").wrapInner("<span></span>");
                     $(".menuback .copyright,.menuback .sns").wrapAll(
                         "<div class='wrapsns'></div>"
                     );
@@ -73,6 +74,9 @@
                         "padding-left": winW * 0.15,
                         "padding-right": winW * 0.15,
                     });
+                    setTimeout(function () {
+                        $(".wrapsns>*>*").toggleClass("translateY");
+                    }, 1000);
 
                     return false;
                 });

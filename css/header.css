@@ -8,7 +8,7 @@ header {
 }
 header a{
   color: #fff;
-  display: block;
+  /*! display: block; */
 }
 header .inner {
   height: 100px;

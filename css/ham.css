@@ -12,32 +12,60 @@
     transition: left 0.5s;
     overflow: hidden;
 }
-@keyframes scalewide{
-    0%{
-        width: 0
+@keyframes scalewide {
+    0% {
+        width: 0;
     }
-    100%{
+    100% {
         width: 100%;
     }
 }
-.menubackmove{
+.menubackmove {
     left: 100%;
 }
-.menuback .wrapsns{
+.menuback .wrapsns {
     position: absolute;
     left: 0;
     bottom: 0;
-/*     width: 100%; */
+    /*     width: 100%; */
     padding: 0 15% 60px 15%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 }
-.menuback .copyright{
-
+.menuback .copyright {
+    color: #fff;
+    overflow: hidden;
 }
-.menuback .sns{
-    position: absolute;
-    bottom: 75px;
-    right: 150px;
+.menuback .copyright span {
+    transform: translateY(100%);
+    display: block;
+    transition: transform 1s;
+    transition-delay: 1s;
+}
+.menuback .sns {
+    overflow: hidden;
+}
+.menuback .sns li {
+    transform: translateY(100%);
+    transition: transform 1s;
+    transition-delay: 1s;
+}
+.menuback .copyright {
+    color: #fff;
+    overflow: hidden;
+}
+.menuback .copyright span {
+    transform: translateY(100%);
+    display: block;
+    transition: transform 1s;
+    transition-delay: 1s;
+}
+.menuback .sns {
+    overflow: hidden;
+}
+.menuback .sns li {
+    transform: translateY(100%);
+    transition: transform 1s;
+    transition-delay: 1s;
 }
