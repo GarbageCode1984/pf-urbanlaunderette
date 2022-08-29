@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
 #title::before{
   content: "";
   display: block;
@@ -21,6 +22,15 @@
   z-index: 1;
   color: #fff;
   height: 673px;
+}
+#title .wslide {
+  width: 80%;
+  z-index: 1;
+  height: 673px;
+  margin-bottom: 0;
+}
+#title .wslide .inner{
+  display: flex;
 }
 #title .inner h2{
   position: relative;
@@ -90,7 +100,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  /*! height: 500px; */
   justify-content: space-between;
   width: 164px;
 }

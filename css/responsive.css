@@ -83,6 +83,10 @@
     width: 100%;
     order: 1;
   }
+  #title span.titleaside{
+  width: 100px;
+  right: 0;
+  }
 /* 서비스   */
   #service .inner{
     
@@ -208,101 +212,67 @@
     display: none;
   }
   
-/* insta  */
-
-#instagram .inner{
+/* 인스타그램  */
+  #instagram .inner{
   width: 90%;
   margin-right: 0;
   overflow: hidden;
-}
-#instagram .inner h2 {
-
-}
-  
-#instagram .inner ul {
+  }
+  #instagram .inner ul{
   flex-wrap: initial;
-  width: calc(533.3333333333%);
-  gap: 0px;
-  /* width: 400%; */
-}
-
-#instagram .inner ul li {
-  flex-basis: initial; 
-  box-sizing: border-box;
-}
-#instagram .inner ul li{
-  padding-right: 30px;
-}
-#instagram .inner ul li:nth-child(even){
-  /* padding-left: 15px; */
-}
+  width: calc(533.3333333333333333333%);
+  gap: 30px; 
+  }
+  #instagram .inner ul li{
+  flex-basis: initial;
+  box-sizing:border-box;  
+  }
+/*   #instagram .inner ul li{
+    padding-right:30px;  
+  } */
+  #instagram .inner ul li:nth-child(even){
+/*     padding-left: 15px;   */
+  }
   
-#instagram .inner ul li a {
-
-}
-footer div.inner .left .tel p.phone strong{
-  margin: 0px 0 20px;
-}
-footer div.inner .left .tel p:not(.phone) {
-  width: 130%;
-  padding: 3px 0;
-  font-size: 12px;
-}
-footer div.inner .left address{
-  font-size: 12px;
-  width:135%;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-footer div.inner .left ul.bnb{
-  transform: translateX(0);
-  width: 160%;
-}
-footer div.inner .right {
-  margin-top: 20px;
-}
-footer div.inner .right ul.sns {
-
-}
-
-footer div.inner .left ul.bnb li a {
+/* 하단   */
+  footer div.inner{
+    display: block;
+  }
+  footer div.inner .left address{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  }
+  footer div.inner .left address span{
+   display: block;
+  }
+  footer div.inner .left ul.bnb{
+  transform: translateX(0px);
+  }
+  footer div.inner .left ul.bnb li a{
   font-size: 12px;
   letter-spacing: -1px;
   padding: 15px 3px;
-  display: flex;
-}
-footer div.inner .right ul.sns li:nth-child(1) a{
-  position: absolute;
-  bottom: -40px;
-  left:0;
-}
-footer div.inner .right ul.sns li:nth-child(2) a{
-  position: absolute;
-  bottom: -40px;
-  left: 45px;
-}
-footer div.inner .right ul.sns li:nth-child(3) a{
-  position: absolute;
-  bottom: -40px;
-  left:90px;
-}
-footer div.inner .right ul.sns li:nth-child(3){
-  border: 1px solid white;
-}
-footer div.inner .right > a.email{
-  position: absolute;
-  left: 0;
-  bottom: -140px;
-  font-size: 12px;
-}
-footer div.inner .right > a.email::before{
-  content:"";
-  border: 1px solid white;
-  width: 100%;
-}
-
-footer div.inner{
+  }
+  
+  footer div.inner .right{
+    margin-top:20px;
+  }
+  footer div.inner .right ul.sns{
+  margin-bottom: 20px;
+  }
+  footer div.inner .right > a.email{
+  margin-top: 40px;
   display: block;
-}
-
+  }
+  footer div.inner .right > a.email::before{
+  transform: translateY(-3.333333333333333vw);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
 }

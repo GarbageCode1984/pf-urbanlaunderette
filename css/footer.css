@@ -19,6 +19,7 @@ footer a{
 footer div.inner {
   align-items: flex-end;
   position: relative;
+  
 }
 footer div.inner h1 {
   
@@ -45,10 +46,13 @@ footer div.inner .left address {
   margin-bottom: 100px;
   margin-top: 60px;
   color: #999;
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+footer div.inner .left address span{
+  display: none;
 }
 footer div.inner .left ul.bnb {
-  
   transform: translateX(-14px);
 }
 footer div.inner .left ul.bnb li {
@@ -91,6 +95,14 @@ footer div.inner .right ul.sns li:nth-child(3) a {
 }
 footer div.inner .right > a.email {
   color: #999;
+}
+footer div.inner .right > a.email::before{
+  content: "";
+  width: 100%;
+  position: absolute;
+  border-top: 1px solid #666;
+  left: 0;
+  transform: translateY(-40px);
 }
 footer a.top{
   font-size: 0;
